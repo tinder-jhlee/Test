@@ -1,0 +1,128 @@
+timestamp: 2017-06-14T15:39:06.237356
+args: ['/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants', 'export', '--formatted', './::', '--export-output-file=/private/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_depmap_run373.out']
+pid: 16068
+Exception caught: (<class 'pants.build_graph.address_lookup_error.AddressLookupError'>)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants", line 11, in <module>
+    sys.exit(main())
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_exe.py", line 44, in main
+    PantsRunner(exiter).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 57, in run
+    options_bootstrapper=options_bootstrapper)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 46, in _run
+    return LocalPantsRunner(exiter, args, env, options_bootstrapper=options_bootstrapper).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 37, in run
+    self._run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 77, in _run
+    self._exiter).setup()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 199, in setup
+    goals, context = self._setup_context(pantsd_launcher)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 171, in _setup_context
+    self._global_options.subproject_roots,
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 113, in _init_graph
+    include_trace_on_error=self._global_options.print_exception_stacktrace)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/engine_initializer.py", line 101, in create_build_graph
+    for _ in graph.inject_specs_closure(target_roots.as_specs()):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 233, in inject_specs_closure
+    for address in self._inject(specs):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 253, in _inject
+    self._index(target_entries)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 95, in _index
+    self._assert_type_is_return(node, state)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 278, in _assert_type_is_return
+    raise AddressLookupError(str(state.exc))
+
+Exception message: Path "" contains no BUILD files.
+
+timestamp: 2017-06-14T15:42:03.046267
+args: ['/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants', 'export', '--formatted', './::', '--export-output-file=/private/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_depmap_run843.out']
+pid: 17101
+Exception caught: (<class 'pants.engine.legacy.graph.InvalidCommandLineSpecError'>)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants", line 11, in <module>
+    sys.exit(main())
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_exe.py", line 44, in main
+    PantsRunner(exiter).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 57, in run
+    options_bootstrapper=options_bootstrapper)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 46, in _run
+    return LocalPantsRunner(exiter, args, env, options_bootstrapper=options_bootstrapper).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 37, in run
+    self._run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 77, in _run
+    self._exiter).setup()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 199, in setup
+    goals, context = self._setup_context(pantsd_launcher)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 171, in _setup_context
+    self._global_options.subproject_roots,
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 113, in _init_graph
+    include_trace_on_error=self._global_options.print_exception_stacktrace)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/engine_initializer.py", line 101, in create_build_graph
+    for _ in graph.inject_specs_closure(target_roots.as_specs()):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 233, in inject_specs_closure
+    for address in self._inject(specs):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 262, in _inject
+    'Spec {} does not match any targets.'.format(subject))
+
+Exception message: Spec DescendantAddresses(directory=u'') does not match any targets.
+
+timestamp: 2017-06-14T15:42:42.950327
+args: ['/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants', 'export', '--formatted', './::', '--export-output-file=/private/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_depmap_run452.out']
+pid: 17611
+Exception caught: (<class 'pants.engine.legacy.graph.InvalidCommandLineSpecError'>)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants", line 11, in <module>
+    sys.exit(main())
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_exe.py", line 44, in main
+    PantsRunner(exiter).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 57, in run
+    options_bootstrapper=options_bootstrapper)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 46, in _run
+    return LocalPantsRunner(exiter, args, env, options_bootstrapper=options_bootstrapper).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 37, in run
+    self._run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 77, in _run
+    self._exiter).setup()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 199, in setup
+    goals, context = self._setup_context(pantsd_launcher)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 171, in _setup_context
+    self._global_options.subproject_roots,
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 113, in _init_graph
+    include_trace_on_error=self._global_options.print_exception_stacktrace)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/engine_initializer.py", line 101, in create_build_graph
+    for _ in graph.inject_specs_closure(target_roots.as_specs()):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 233, in inject_specs_closure
+    for address in self._inject(specs):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 262, in _inject
+    'Spec {} does not match any targets.'.format(subject))
+
+Exception message: Spec DescendantAddresses(directory=u'') does not match any targets.
+
+timestamp: 2017-06-14T15:43:52.120480
+args: ['/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants', 'export', '--formatted', './::', '--export-output-file=/private/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_depmap_run871.out']
+pid: 18417
+Exception caught: (<class 'pants.engine.legacy.graph.InvalidCommandLineSpecError'>)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/bin/pants", line 11, in <module>
+    sys.exit(main())
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_exe.py", line 44, in main
+    PantsRunner(exiter).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 57, in run
+    options_bootstrapper=options_bootstrapper)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/pants_runner.py", line 46, in _run
+    return LocalPantsRunner(exiter, args, env, options_bootstrapper=options_bootstrapper).run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 37, in run
+    self._run()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/local_pants_runner.py", line 77, in _run
+    self._exiter).setup()
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 199, in setup
+    goals, context = self._setup_context(pantsd_launcher)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 171, in _setup_context
+    self._global_options.subproject_roots,
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/goal_runner.py", line 113, in _init_graph
+    include_trace_on_error=self._global_options.print_exception_stacktrace)
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/bin/engine_initializer.py", line 101, in create_build_graph
+    for _ in graph.inject_specs_closure(target_roots.as_specs()):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 233, in inject_specs_closure
+    for address in self._inject(specs):
+  File "/Users/jaehoonlee/.cache/pants/setup/bootstrap-Darwin-x86_64/1.3.0/lib/python2.7/site-packages/pants/engine/legacy/graph.py", line 262, in _inject
+    'Spec {} does not match any targets.'.format(subject))
+
+Exception message: Spec DescendantAddresses(directory=u'') does not match any targets.
+

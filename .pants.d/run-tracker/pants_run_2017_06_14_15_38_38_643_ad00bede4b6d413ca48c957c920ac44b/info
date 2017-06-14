@@ -1,0 +1,13 @@
+buildroot: /Users/jaehoonlee/Documents/tinder/repos/Test
+timestamp: 1497479918.64
+datetime: Wednesday Jun 14, 2017 15:38:38
+machine: jaehoonlee
+version: 1.3.0
+user: jaehoonlee
+path: /Users/jaehoonlee/Documents/tinder/repos/Test
+id: pants_run_2017_06_14_15_38_38_643_ad00bede4b6d413ca48c957c920ac44b
+cmd_line: pants export --no-colors --export-output-file=/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_export_run456600471441051263.out
+default_report: /Users/jaehoonlee/Documents/tinder/repos/Test/.pants.d/reports/pants_run_2017_06_14_15_38_38_643_ad00bede4b6d413ca48c957c920ac44b/html/build.html
+branch: none
+revision: none
+outcome: SUCCESS

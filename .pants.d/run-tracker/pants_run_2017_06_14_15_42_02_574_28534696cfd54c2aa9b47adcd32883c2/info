@@ -1,0 +1,11 @@
+buildroot: /Users/jaehoonlee/Documents/tinder/repos/Test
+timestamp: 1497480122.57
+datetime: Wednesday Jun 14, 2017 15:42:02
+machine: jaehoonlee
+version: 1.3.0
+user: jaehoonlee
+path: /Users/jaehoonlee/Documents/tinder/repos/Test
+id: pants_run_2017_06_14_15_42_02_574_28534696cfd54c2aa9b47adcd32883c2
+cmd_line: pants export --formatted ./:: --export-output-file=/private/var/folders/m7/yv8ynhqn2nn0k0w5jc4hmt540000gn/T/pants_depmap_run843.out
+default_report: /Users/jaehoonlee/Documents/tinder/repos/Test/.pants.d/reports/pants_run_2017_06_14_15_42_02_574_28534696cfd54c2aa9b47adcd32883c2/html/build.html
+outcome: FAILURE

@@ -1,0 +1,11 @@
+buildroot: /Users/jaehoonlee/Documents/tinder/repos/Test
+timestamp: 1497479800.85
+datetime: Wednesday Jun 14, 2017 15:36:40
+machine: jaehoonlee
+version: 1.3.0
+user: jaehoonlee
+path: /Users/jaehoonlee/Documents/tinder/repos/Test
+id: pants_run_2017_06_14_15_36_40_848_25390e4883734ba1b93eb933662ac39f
+cmd_line: pants -V
+default_report: /Users/jaehoonlee/Documents/tinder/repos/Test/.pants.d/reports/pants_run_2017_06_14_15_36_40_848_25390e4883734ba1b93eb933662ac39f/html/build.html
+outcome: SUCCESS
